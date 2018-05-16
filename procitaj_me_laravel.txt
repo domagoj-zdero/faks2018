@@ -1,0 +1,11 @@
+https://laravel.com/
+https://laravel.com/docs/5.6
+composer create-project --prefer-dist laravel/laravel faks2018
+php artisan serve
+php artisan route:list
+=======================================
+routes/web.php:
+Route::get('/fakultet', function () {
+	return view('fakultet');
+});
+=======================================
