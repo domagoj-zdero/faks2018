@@ -82,7 +82,8 @@
                     Laravel
                 </div>
                 <div class="links">
-                    <a href="{{ route('fakultet') }}">Fakultet</a>
+                    <a href="{{ route('admin') }}">Fakultet</a>
+                    <a href="{{ route('fakultet') }}">neki dummy page</a>
                 </div><hr>
                 <div class="links">
                     <a href="https://laravel.com/docs">Documentation</a>

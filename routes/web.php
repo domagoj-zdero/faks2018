@@ -17,6 +17,9 @@ Route::get('/', function () {
 Route::get('/fakultet', function () {
     return view('fakultet');
 })-> name('fakultet'); // imenovana routa
+Route::get('/admin', function () {
+    return view('admin.dashboard');
+})-> name('admin'); // imenovana routa
 
 Auth::routes();
 
